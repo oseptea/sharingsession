@@ -9,9 +9,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan("com.sharingseason")
-@EntityScan("com.sharingseason.model")
-@EnableJpaRepositories("com.sharingseason.repository")
+@ComponentScan("com.sharingsession")
+@EntityScan("com.sharingsession.model")
+@EnableJpaRepositories("com.sharingsession.repository")
 public class Application {
 	
 	public static void main(String[] args) {
